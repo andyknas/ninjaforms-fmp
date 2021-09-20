@@ -27,7 +27,7 @@ function ninja_forms_processing_callback( $form_data ){
     $form_title    = $form_data[ 'settings' ][ 'title' ];
     
     // your filemaker host settings
-    $host = 'office18.nrgsoft.com'; // your server hostname
+    $host = 'yourserver.com'; // your server hostname
 	$dbname = 'Webhook'; // your database name
 	$layout = 'Webhook'; // your layout name
 	$user = 'Webhook'; // your username
