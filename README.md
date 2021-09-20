@@ -8,9 +8,12 @@ Using Ninja Forms on submit action listener the follwoing hook will be called.
 2. Upload the Webhook database to your FileMaker Server that has the Data API enabled
 3. Update the file 'ninjaforms-fmp.php' and set the variables for hostname, user and pass to match your Webhook file setting
 4. Compress the 'ninjaforms-fmp-master' folder, upload as a WordPress plugin and activate
-5. Edit form and add custom WP Hook per snapshot in Images
-6. Submit form as a test
-7. Record will be created in Webhook database
+5. Edit form and add custom WP Hook
+![Form List](/images/1-forms.png)
+![Add Action](/images/2-add_wp_hook.png)
+![Done](/images/3-complete.png)
+7. Submit form as a test
+8. Record will be created in Webhook database
 
 Now you can adjust the Process Webhook script to further process the form data.
 
