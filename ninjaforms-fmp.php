@@ -6,7 +6,7 @@
  * Version:           0.1
  * Author:            NRG Software, LLC.
  * Author URI:        http://nrgsoft.com/
- * License:           GPLv2 or laterx
+ * License:           MIT
  * Text Domain:       nrgsoft
  */
 
