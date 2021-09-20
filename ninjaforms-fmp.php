@@ -21,7 +21,7 @@ add_action( 'filemaker_data_api', 'ninja_forms_processing_callback' );
  */
 function ninja_forms_processing_callback( $form_data ){
 	// data passed from form
-    $form_id       = $form_data[ '$form_id' ];
+    $form_id       = $form_data[ 'form_id' ];
     $form_fields   = $form_data[ 'fields' ];
     $form_settings = $form_data[ 'settings' ];
     $form_title    = $form_data[ 'settings' ][ 'title' ];
